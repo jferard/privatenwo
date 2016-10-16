@@ -1,0 +1,7 @@
+content		privatenwo				chrome/content/
+skin		privatenwo	classic/1.0		chrome/skin/classic/
+
+overlay		chrome://messenger/content/messenger.xul 	chrome://privatenwo/content/main.xul
+
+locale		privatenwo   	en-US         		chrome/locale/en-US/
+locale		privatenwo   	fr-FR         		chrome/locale/fr-FR/

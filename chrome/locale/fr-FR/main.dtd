@@ -1,0 +1,6 @@
+<!ENTITY	pnwo.label 					"Émetteur ok ?">
+<!ENTITY	pnwo.tooltip 				"Cliquez pour trier par adresse d'émetteur">
+<!ENTITY	pnwo.pnwoOptions				"Options Private Network Origin">	
+<!ENTITY	pnwo.externalMailServer		"Serveur pour la réception du courrier externe (regex)">	
+<!ENTITY	pnwo.selfMailDomain			"Domaine de mail interne (regex)">	
+

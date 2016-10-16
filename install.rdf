@@ -1,0 +1,26 @@
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>privatenwo@julienferard.fr</em:id>
+		<em:type>2</em:type>
+		<em:name>Private Network Origin</em:name>
+		<em:version>0.0.1b</em:version>
+		<em:creator>Julien Férard</em:creator>
+		<em:description>Adds a column to display sender address and if the sender is in your private network</em:description>
+		<em:homepageURL>https://github.com/jferard/privatenwo</em:homepageURL>
+		<em:optionsURL>chrome://privatenwo/content/options.xul</em:optionsURL>
+
+		<!-- Thunderbird -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id> 
+				<em:minVersion>3.0</em:minVersion>
+				<em:maxVersion>5.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		<!-- -->
+
+	</Description>
+
+</RDF>
+

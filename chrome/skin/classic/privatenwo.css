@@ -1,0 +1,9 @@
+treechildren::-moz-tree-row(info), treechildren::-moz-tree-cell(info) {
+	background-color:yellow;
+}
+treechildren::-moz-tree-row(warning), treechildren::-moz-tree-cell(warning) {
+	background-color:orange;
+}
+treechildren::-moz-tree-row(alert), treechildren::-moz-tree-cell(alert) {
+	background-color:red;
+}

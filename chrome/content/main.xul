@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/* 
+*	"Private Network Origin"
+*	Adds a column to display sender address and if the sender is in your private network.
+*	Copyright (C) 2016 Julien Férard <www.github.com/jferard>
+*
+*	This program is free software: you can redistribute it and/or modify
+*	it under the terms of the GNU General Public License as published by
+*	the Free Software Foundation, either version 3 of the License, or
+*	(at your option) any later version.
+*	
+*	This program is distributed in the hope that it will be useful,
+*	but WITHOUT ANY WARRANTY; without even the implied warranty of
+*	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*	GNU General Public License for more details.
+*	
+*	You should have received a copy of the GNU General Public License
+*	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*
+**/
+-->
+
+<!DOCTYPE main SYSTEM "chrome://privatenwo/locale/main.dtd">
+
+<?xml-stylesheet href="chrome://privatenwo/skin/privatenwo.css" type="text/css"?>
+
+<overlay id="privatenwo"
+          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<tree id="threadTree">
+		<treecols id="threadCols">
+			<splitter class="tree-splitter" />
+			<treecol id="pnwoCol" persist="hidden ordinal width" 
+           currentView="unthreaded" flex="2"
+           label="&pnwo.label;" tooltiptext="&pnwo.tooltip;" />
+		</treecols>
+	</tree>
+
+	<!-- include our javascript file -->
+	<script type="text/javascript" src="chrome://privatenwo/content/util.js"/> 
+	<script type="text/javascript" src="chrome://privatenwo/content/main.js"/> 
+
+</overlay>

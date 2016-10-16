@@ -1,0 +1,5 @@
+<!ENTITY	pnwo.label 					"Sender ok?">
+<!ENTITY	pnwo.tooltip 				"Click to sort by sender address">
+<!ENTITY	pnwo.pnwoOptions				"Private Network Origin Options">	
+<!ENTITY	pnwo.externalMailServer		"Server for external mail reception (regex)">	
+<!ENTITY	pnwo.selfMailDomain			"Internal mail domain (regex)">	
