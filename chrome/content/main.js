@@ -71,7 +71,7 @@ var pnwo = (function (context, util) {
 	};
 
 	var addCustomColumnHandler = function (colId) {
-		let customCol = new PNWColumnHandler();
+		var customCol = new PNWColumnHandler();
 		gDBView.addColumnHandler(colId, customCol);
 	};
 

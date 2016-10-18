@@ -33,11 +33,11 @@ var util = (function (context) {
 	// adds received to the database if not present
 	context.checkPrefs = function () {
 		this.log("checkPrefs");
-		var prefs = this.prefService.getBranch("mailnews.");
-		var dbhs = prefs.getCharPref("customDBHeaders").split(" ");
+		var mnprefs = this.prefService.getBranch("mailnews.");
+		var dbhs = mnprefs.getCharPref("customDBHeaders").split(" ");
 		if (dbhs.indexOf("received")) {
 			dbhs.push("received")
-			prefService.savePrefFile(null);
+			this.prefService.savePrefFile(null);
 		}
 	};
 
