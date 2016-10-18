@@ -11,6 +11,7 @@
 		<em:description>Adds a column to display sender address and if the sender is in your private network</em:description>
 		<em:homepageURL>https://github.com/jferard/privatenwo</em:homepageURL>
 		<em:optionsURL>chrome://privatenwo/content/options.xul</em:optionsURL>
+		<em:updateURL>https://raw.githubusercontent.com/jferard/privatenwo-dist/master/update.rdf</em:updateURL>
 
 		<!-- Thunderbird -->
 		<em:targetApplication>
